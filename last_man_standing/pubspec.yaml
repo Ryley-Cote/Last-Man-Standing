@@ -1,0 +1,32 @@
+name: last_man_standing
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  flame: ^1.33.0
+  flutter_riverpod: ^2.5.1
+  flame_riverpod: ^5.4.0
+  faker: ^2.1.0
+  flame_splash_screen: ^0.3.1+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/
+    - assets/images/backgrounds/
+    - assets/images/gui/
+    - assets/images/sprites_characters/
+    - assets/images/sprites_items/
